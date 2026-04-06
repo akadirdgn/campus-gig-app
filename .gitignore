@@ -1,0 +1,78 @@
+# ==============================
+# OS & Misc
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==============================
+# Flutter / Dart
+# ==============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# ==============================
+# Build folders (CRITICAL)
+# ==============================
+build/
+**/build/
+
+# ==============================
+# Android
+# ==============================
+android/.gradle/
+android/app/build/
+android/build/
+.cxx/
+
+# ==============================
+# iOS
+# ==============================
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+
+# ==============================
+# Node (varsa)
+# ==============================
+node_modules/
+
+# ==============================
+# APK / AAB (asla git'e girmez)
+# ==============================
+*.apk
+*.aab
+
+# ==============================
+# Keystore (çok önemli)
+# ==============================
+*.keystore
+*.jks
+key.properties
+
+# ==============================
+# Generated / Cache
+# ==============================
+GeneratedPluginRegistrant.java
+local.properties
+
+# ==============================
+# Debug / Symbol / Map
+# ==============================
+app.*.symbols
+app.*.map.json

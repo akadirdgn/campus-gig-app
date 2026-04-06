@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-darkText antialiased;
+    /* Masaüstünde mobil uygulama çerçevesi gibi gözükmesi için gövde rengini gri tutuyoruz */
+    background-color: #E2E8F0;
+  }
+
+  /* Scrollbar gizleme mobil hissiyatı için */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
+
+/* Mobil cihaz görünümü için kapsayıcı (wrapper) sınıfı */
+.mobile-app-container {
+  @apply mx-auto max-w-md w-full bg-brand-bg relative h-[100dvh] overflow-hidden shadow-2xl;
+}
+
+.mobile-content-area {
+  @apply h-full overflow-y-auto pb-24 pt-16 px-4;
+}

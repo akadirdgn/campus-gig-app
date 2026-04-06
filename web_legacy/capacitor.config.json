@@ -1,0 +1,9 @@
+{
+  "appId": "com.ogunyildirim.campusgig",
+  "appName": "CampusGig",
+  "webDir": "dist",
+  "server": {
+    "url": "http://10.52.213.154:5173",
+    "cleartext": true
+  }
+}
